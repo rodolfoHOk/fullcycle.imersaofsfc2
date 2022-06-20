@@ -7,10 +7,12 @@
 ## 👨‍💻 Tecnologias e bibliotecas utilizadas 👩‍💻
 
 - Go : Linguagem de programação
+- Kafka : Plataforma de processamento de streams
 
 ### 📚 bibliotecas adicionais 🗃️
 
-- 
+- github.com/confluentinc/confluent-kafka-go/kafka
+-	github.com/joho/godotenv
 
 ## 📖 Guia 📃
 
@@ -43,9 +45,6 @@
         {"clientId":"1","routeId":"1"}
         {"clientId":"2","routeId":"2"}
 
-## 🔗 Links úteis ✨
-
-- 
 ## 🔥 Repositórios da imersão e do esquenta 🔥
 
 Imersão:
