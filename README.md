@@ -88,6 +88,8 @@ Imersão:
 
 - [Simulator](./simulator/README.md)
 
+- [Apache Kafka (docker-compose)](./apache-kafka/docker-compose.yaml)
+
 Esquenta: 
 
 - [Arquitetura Limpa com Typescript](https://github.com/rodolfoHOk/fullcycle.typescrit-clean-arch)
