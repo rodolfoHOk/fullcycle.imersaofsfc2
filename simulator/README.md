@@ -1,4 +1,4 @@
-# 🚀 Simulator
+# 🚀 Code Delivery - Simulator
 
 > Simulador de trajetos de GPS
 
@@ -49,9 +49,11 @@
 
 Imersão:
 
-- [Simulator](./simulator/README.md)
+- [Simulator](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/simulator)
 
-- [Apache Kafka (docker-compose)](./apache-kafka/docker-compose.yaml)
+- [Apache Kafka (docker-compose)](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/apache-kafka)
+
+- [Nest-API](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/nest-api)
 
 Esquenta: 
 
