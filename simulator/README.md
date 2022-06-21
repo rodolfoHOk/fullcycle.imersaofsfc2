@@ -12,7 +12,7 @@
 ### 📚 bibliotecas adicionais 🗃️
 
 - github.com/confluentinc/confluent-kafka-go/kafka
--	github.com/joho/godotenv
+- github.com/joho/godotenv
 
 ## 📖 Guia 📃
 
