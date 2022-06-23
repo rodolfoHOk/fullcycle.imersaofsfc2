@@ -9,6 +9,7 @@
 - NestJs : Framework web para NodeJs
 - MongoDB : Banco de dados não relacional
 - Kafka : Plataforma de processamento de streams
+- WebSocket : Comunicação bidirecional realtime
 
 ### 📚 bibliotecas adicionais 🗃️
 
@@ -130,6 +131,25 @@
               endPosition: { lat: -15.82758, lng: -47.92532 },
             },
           ]);
+
+- adicionar no docker-compose.yaml:
+
+        no app:
+          extra_hosts:
+            - "host.docker.internal:172.17.0.1"
+
+- adicionar no /etc/hosts:
+
+        127.0.0.1 host.docker.internal
+
+- Instalando o WebSocket no Nest:
+
+        npm install @nestjs/websockets @nestjs/platform-socket.io
+        npm install -D @types/socket.io
+
+- Gerando o gateway de routes para o WebSocket
+
+        nest g gateway routes/routes
 
 ## 🔥 Repositórios da Imersão FullCycle 8 ✨
 

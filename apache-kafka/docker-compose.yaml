@@ -1,5 +1,9 @@
 version: "3"
 
+networks:
+  fullcycle-net:
+    driver: bridge
+
 services:  
 
   zookeeper:
