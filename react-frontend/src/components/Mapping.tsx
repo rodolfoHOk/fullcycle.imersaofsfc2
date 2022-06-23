@@ -50,24 +50,48 @@ export function Mapping() {
 
   const { enqueueSnackbar } = useSnackbar();
 
+  const finishRoute = useCallback(
+    (route: Route) => {
+      mapRef.current?.removeRoute(route._id);
+      enqueueSnackbar(`${route.title} finalizou`, {
+        variant: 'success',
+      });
+    },
+    [enqueueSnackbar]
+  );
+
   useEffect(() => {
-    socketIORef.current = connect(API_URL);
-    socketIORef.current.on('connect', () => console.log('websocket connected'));
-    socketIORef.current.on(
-      'new-position',
-      (data: {
-        routeId: string;
-        position: [number, number];
-        finished: boolean;
-      }) => {
-        console.log(data);
-        mapRef.current?.moveCurrentMarker(data.routeId, {
-          lat: data.position[0],
-          lng: data.position[1],
-        });
+    if (!socketIORef.current?.connected) {
+      socketIORef.current = connect(API_URL);
+      socketIORef.current.on('connect', () =>
+        console.log('websocket connected')
+      );
+    }
+
+    const handler: (data: {
+      routeId: string;
+      position: [number, number];
+      finished: boolean;
+    }) => void = (data) => {
+      mapRef.current?.moveCurrentMarker(data.routeId, {
+        lat: data.position[0],
+        lng: data.position[1],
+      });
+
+      if (data.finished) {
+        const route = routes.find(
+          (route) => data.routeId === route._id
+        ) as Route;
+        finishRoute(route);
       }
-    );
-  }, []);
+    };
+
+    socketIORef.current.on('new-position', handler);
+
+    return () => {
+      socketIORef.current?.off('new-position', handler);
+    };
+  }, [finishRoute, routes]);
 
   useEffect(() => {
     fetch(`${API_URL}/routes`)
