@@ -15,6 +15,7 @@
 - @mui/icons-material
 - google-maps
 - lodash
+- @types/lodash
 - notistack
 
 ## 📖 Comandos 📃
@@ -29,7 +30,7 @@
 
 - Instalação do WebSocket Client:
 
-        npm install socket.io-client
+        npm install socket.io-client @types/socket.io-client
 
 ## 🔥 Repositórios da Imersão FullCycle 8 ✨
 
