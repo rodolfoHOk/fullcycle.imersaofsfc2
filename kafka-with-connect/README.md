@@ -1,4 +1,6 @@
-# Apache Kafka, Kafka Connect, Elasticsearch e Kibana
+# Integração e visualização de dados
+
+> Apache Kafka, Kafka Connect, Elasticsearch e Kibana
 
 ## Rodar em containers
 
@@ -43,3 +45,27 @@
 - Criar visualização de mapa no maps com filtro por rota
 
 - Criar o dashboard com as visualizações
+
+## 🔥 Links da Imersão FullCycle 8 ✨
+
+Imersão:
+
+- [Simulator](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/simulator)
+
+- [Apache Kafka (docker-compose)](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/apache-kafka)
+
+- [Nest-API](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/nest-api)
+
+- [React-FrontEnd](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/react-frontend)
+
+- [Integração e Dashboard](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/kafka-with-connect)
+
+- [DevOps Kubernetes](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/k8s)
+
+Esquenta: 
+
+- [Arquitetura Limpa com Typescript](https://github.com/rodolfoHOk/fullcycle.typescrit-clean-arch)
+
+- [React Maps](https://github.com/rodolfoHOk/fullcycle.react-maps)
+
+- [Go Iniciando do Zero](https://github.com/rodolfoHOk/fullcycle.go-init-from-zero)

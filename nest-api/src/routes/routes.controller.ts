@@ -57,6 +57,9 @@ export class RoutesController {
       };
     },
   ) {
-    this.routesGateway.senPosition(message.value);
+    this.routesGateway.senPosition({
+      ...message.value,
+      position: [message.value.position[1], message.value.position[0]],
+    });
   }
 }

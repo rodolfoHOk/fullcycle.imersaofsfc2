@@ -45,7 +45,7 @@
         {"clientId":"1","routeId":"1"}
         {"clientId":"2","routeId":"2"}
 
-## 🔥 Repositórios da imersão e do esquenta 🔥
+## 🔥 Links da Imersão FullCycle 8 ✨
 
 Imersão:
 
@@ -56,6 +56,10 @@ Imersão:
 - [Nest-API](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/nest-api)
 
 - [React-FrontEnd](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/react-frontend)
+
+- [Integração e Dashboard](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/kafka-with-connect)
+
+- [DevOps Kubernetes](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/k8s)
 
 Esquenta: 
 

@@ -1,4 +1,4 @@
-# Imersão FullStack & FullCycle 2
+# Imersão 8 FullStack & FullCycle
 
 ## Dinâmica do sistema
 
@@ -82,7 +82,7 @@
   - ksqlDB: Como se fosse o SQL do kafka por exemplo usar comandos para fazer agregações
   - Streams: Para poder manipular os dados em mais baixo nível
 
-## Links para os projetos
+## 🔥 Links da Imersão FullCycle 8 ✨
 
 Imersão:
 
@@ -93,6 +93,10 @@ Imersão:
 - [Nest-API](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/nest-api)
 
 - [React-FrontEnd](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/react-frontend)
+
+- [Integração e Dashboard](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/kafka-with-connect)
+
+- [DevOps Kubernetes](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/k8s)
 
 Esquenta: 
 

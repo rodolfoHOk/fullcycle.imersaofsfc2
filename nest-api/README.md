@@ -1,6 +1,6 @@
 # Code Delivery - Nest API 🚀
 
-> Projeto criado durante a Imersão FullStack FullCycle 2
+> Projeto criado durante a Imersão 8 FullStack FullCycle
 
 ## 👨‍💻 Tecnologias e bibliotecas utilizadas 👩‍💻
 
@@ -151,7 +151,7 @@
 
         nest g gateway routes/routes
 
-## 🔥 Repositórios da Imersão FullCycle 8 ✨
+## 🔥 Links da Imersão FullCycle 8 ✨
 
 Imersão:
 
@@ -163,7 +163,11 @@ Imersão:
 
 - [React-FrontEnd](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/react-frontend)
 
-Esquenta:
+- [Integração e Dashboard](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/kafka-with-connect)
+
+- [DevOps Kubernetes](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/k8s)
+
+Esquenta: 
 
 - [Arquitetura Limpa com Typescript](https://github.com/rodolfoHOk/fullcycle.typescrit-clean-arch)
 
