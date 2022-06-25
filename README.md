@@ -1,4 +1,4 @@
-# Imersão 8 FullStack & FullCycle
+# Imersão FullStack & FullCycle 8
 
 ## Dinâmica do sistema
 
@@ -86,17 +86,17 @@
 
 Imersão:
 
-- [Simulator](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/simulator)
+- [Simulator](https://github.com/rodolfoHOk/fullcycle.imersaofsfc8/tree/main/simulator)
 
-- [Apache Kafka (docker-compose)](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/apache-kafka)
+- [Apache Kafka (docker-compose)](https://github.com/rodolfoHOk/fullcycle.imersaofsfc8/tree/main/apache-kafka)
 
-- [Nest-API](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/nest-api)
+- [Nest-API](https://github.com/rodolfoHOk/fullcycle.imersaofsfc8/tree/main/nest-api)
 
-- [React-FrontEnd](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/react-frontend)
+- [React-FrontEnd](https://github.com/rodolfoHOk/fullcycle.imersaofsfc8/tree/main/react-frontend)
 
-- [Integração e Dashboard](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/kafka-with-connect)
+- [Integração e Dashboard](https://github.com/rodolfoHOk/fullcycle.imersaofsfc8/tree/main/kafka-with-connect)
 
-- [DevOps Kubernetes](https://github.com/rodolfoHOk/fullcycle.imersaofsfc2/tree/main/k8s)
+- [DevOps Kubernetes](https://github.com/rodolfoHOk/fullcycle.imersaofsfc8/tree/main/k8s)
 
 Esquenta: 
 
